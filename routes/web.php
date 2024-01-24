@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home');
-});
+/**
+ * FRONTPAGE ALL ROUTE
+ */
+Route::get('/', function () { return view('frontend.index'); });
+Route::get('/about', function(){ return view('frontend.about'); });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
