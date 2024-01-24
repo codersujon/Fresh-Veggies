@@ -21,6 +21,7 @@ Route::get('/', function () { return view('frontend.index'); });
 Route::get('/about', function(){ return view('frontend.about'); });
 Route::get('/contact', function(){ return view('frontend.contact'); });
 Route::get('/shop', function(){ return view('frontend.shop'); });
+Route::get('/vegetables', function(){ return view('frontend.vegetables'); });
 
 
 Route::get('/dashboard', function () {
