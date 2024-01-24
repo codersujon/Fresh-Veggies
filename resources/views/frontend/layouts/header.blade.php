@@ -23,7 +23,7 @@
                         <a class="nav-link" href="{{ url('/about') }}">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                        <a class="nav-link" href="{{ url('/contact') }}">CONTACT US</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
